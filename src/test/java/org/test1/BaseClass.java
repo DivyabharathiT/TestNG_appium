@@ -20,4 +20,9 @@ public class BaseClass {
 		e.sendKeys(txt);
 	}
 
+	
+	public static void click(WebElement e)
+	{
+		e.click();
+	}
 }
